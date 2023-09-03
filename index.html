@@ -1,9 +1,7 @@
-
 <!DOCTYPE html>
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="main.js"></script>
 </head>
 <body>
   <h1>About Me</h1>
@@ -11,9 +9,10 @@
   
   <button onclick="loadSearch()">Check Food Preference</button>
   
-  <input type="text" id="searchField" onkeyup="findFoodStatus()" placeholder="Type a food...">
+  <input type="text" id="searchField" onkeyup="findFoodStatus()" placeholder="Type a food..." style="display: none;">
 
   <div id="result"></div>
 
+  <script src="main.js"></script>
 </body>
 </html>
