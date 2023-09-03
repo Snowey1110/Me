@@ -1,4 +1,4 @@
-javascript
+
 // Get food data
 let foodData = {};
 fetch('FoodList.json') 
