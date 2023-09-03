@@ -1,0 +1,35 @@
+HTML
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="main.js"></script>
+</head>
+<body>
+  <h1>About Me</h1>
+  <p>Welcome to my website! Find out more about my food preferences.</p>
+  
+  <button onclick="loadSearch()">Check Food Preference</button>
+  
+  <input type="text" id="searchField" onkeyup="findFoodStatus()" placeholder="Type a food...">
+
+  <div id="result"></div>
+
+</body>
+</html>
+```
+
+**style.css**
+
+```CSS
+body {
+  font-family: Arial, helvetica, sans-serif;
+}
+button {
+  padding: 10px;
+  margin-bottom:10px;
+}
+input {
+  padding: 10px;
+  display: none;
+}
